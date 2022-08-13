@@ -1,0 +1,275 @@
+html {height: 100%;}
+
+body {
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    background-color: #ddd;
+    height: 100%;
+    margin: 0 auto;
+    padding: 0;
+    color: #333; 
+    
+}
+ a,
+a:hover,
+a:focus{
+    text-decoration: none;
+    color: #333;
+    outline: 0;
+}
+
+.logo{
+    font-size: 25px;
+    margin-top: 0px;
+    color: brown;
+}
+
+.navbar-right a{
+    color: #fff;
+}
+
+.wrap-site{
+    min-height: 100%;
+    max-width: 1680px;
+    min-width: 320px;
+    margin: 0 auto;
+    padding: 0;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+    align-items: stretch;
+    align-content: stretch;
+    background-color:#fff;
+    -webkit-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+    
+}
+.site-header{
+    flex: 0 1 auto;
+}
+.site-header .navbar{margin: 0;}
+
+.wrap-main{
+    height: 450px;
+    position: relative;
+    z-index: 2;
+    text-align: center;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: stretch;
+}
+
+.akciya{    
+    color: #fff;
+    font-size: 34px;
+    text-shadow: 1px 1px 2px #000;
+}
+.main-title{
+    color: #fff;
+    font-size: 34px;
+    text-shadow: 1px 1px 2px #000;
+}
+.main-description{
+    color: #ddd;
+    font-size: 20px;
+    text-shadow: 1px 1px 2px #000;
+}
+.site-header .navbar-text
+{
+    font-size: 16px;
+    padding-right: 15px;
+    color: #eee;
+}
+
+.site-content{
+    flex: 1 1 auto;
+}
+.site-footer {
+    background-color: #333;
+    color: #eee;
+    padding: 30px 0px;
+    flex: 0 1 auto;
+
+}
+
+.site-footer .copyright{
+    font-size: 12px;
+    font-style: italic;
+}
+
+.wrap-btn{border: none; margin-top: 20px; outline: 0;text-align: center;}
+.btn:focus{outline: 0;}
+
+section {
+    position: relative;
+    padding: 50px 0px;
+    
+}
+
+.main-section{
+    background: #fff url("../images/bg2.jpg") scroll no-repeat center center;
+    -webkit-background-size: cover;
+    background-size: cover;
+    height: 450px;
+    -webkit-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+    padding: 0;
+}
+
+.overlay{
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 1;
+}
+
+/** Услуги  **/
+.section-title{
+    font-family: "Roboto Condensed";
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 28px;
+    margin: 0 0 20px;
+}
+.service-item{
+    text-align: center;
+    margin: 20px auto;
+    
+}
+
+.my-section{
+    background-color: #101010;
+    color: #fff;
+}
+
+.my-item a{
+    color:#fff;
+}
+.navbar-text a{
+    color: #fff;
+}
+.telefon-onlain{
+    position: fixed;
+    z-index: 1000;
+   
+    margin-bottom: 10px;
+    margin-left: 10px;
+    float: left;
+    margin-top: 450px;
+}
+.telefon-onlain img{
+    max-height: 50px;
+    max-width: 50px;
+}
+.serv-item-img{text-align: center;}
+.serv-item-img img{
+    max-width: 200px;
+    max-height: 200px;
+    width: 100%;
+    height: auto;
+    -webkit-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+     -moz-border-radius: 50%;
+}
+.serv-item-title{
+    font-family: "Roboto Condensed";
+    text-align: center;
+    font-size: 18px;
+    margin: 10px auto;
+    font-weight: normal;
+    
+}
+
+.serv-item-description{
+    font-family: "Roboto Condensed";
+    font-size: 16px;
+    margin: 0;
+    text-align: center;
+}
+
+/** Клиенты  **/
+.client-img{margin: 20px auto; text-align: center;}
+.client-img img{
+    -webkit-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);  
+}
+
+.page-desc{
+    font-size: 14px;
+    margin: 20px 0;
+    padding-left: 20px;
+    border-left: 20px solid #249648;
+}
+
+.align-center{
+    display: flex;
+    flex-flow: row;
+    align-content: center;
+    justify-content: center;
+}
+
+.form-zakaz{
+    
+    height: 400px;
+    background-color: #fff;
+    border: 5px solid rgba(0,0,0,0.12);
+    -webkit-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+    z-index: 10;
+    text-align: center;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: stretch;
+    
+    }
+
+.form-zakaz h2{
+    color: #d41217;
+    text-align: center;
+    margin-left: 15px;
+    top: 25px;
+}
+
+.form-zakaz h3{
+    margin-left: 15px;
+    color: #d41217;
+    text-align: center;
+}
+
+.pole{
+    border: none;
+    border-bottom: 1px solid rgba(0,0,0,0.12);
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 5px;
+    
+}
+
+.zakaz-service {
+    border-top: 1px solid rgba(0,0,0,0.12);
+}
+
+.btn-dange{
+    background-color: #d41217;
+    color: #fff;
+    
+}
+
+.serv-item-title{
+    color:#d41217;
+    font-size: 21px;
+}
